@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+  html, body 
+          {
+            height: 98vh; 
+            background-color: #1D1D1D;
+            font-family: 'Varela Round', sans-serif;
+          }
+
+path{
+    transform:scale(1);
+  }
+   .roomclass:hover
+  {
+    fill:#FFCB94;
+
+  stroke:#C60;
+  stroke-width:2;
+  }
+  .facilitiesclass:hover
+  {
+    fill:#CFA8FF;
+  stroke:#609;
+  stroke-width:1;
+  }
+  .facilitiesclassclickable:hover 
+  {
+    fill:#CFA8FF;
+  stroke:#609;
+  stroke-width:1;
+  }
+  .stairsclass:hover
+  {
+    fill:#FFACAB;
+    stroke:#C54949;
+  stroke-width:2;
+  }
+  .poiclass:hover 
+  {
+    fill:#a3d69f;
+    stroke:#53D150;
+  stroke-width:2;
+  }
+  .poiclassunclickable:hover 
+  {
+    fill:#a3d69f;
+    stroke:#53D150;
+  stroke-width:2;
+  }
+  .officeclass:hover
+  {
+    fill:#a8bffd;
+    stroke:#2f488b;
+  stroke-width:2;
+  }
+
+
+
+  #svgdiv 
+  {
+    height:92vh;
+    width: 100%;
+    text-shadow: none;
+  }
+  #rotatebutton1
+  {
+      position:absolute;
+      bottom:4%;
+      right:20px;
+      z-index: 1;
+    }
+    #rotatebutton2
+  {
+      position:absolute;
+      bottom:4%;
+      right:65px;
+      z-index: 1;
+    }
+    #reportissuebutton
+  {
+    position:absolute;
+    bottom:4%;
+    left:10px;
+    z-index: 1;
+  }
+    #zoomin
+  {
+      position:absolute;
+      bottom:20%;
+      right:20px;
+      z-index: 1;
+    }
+    #zoomout
+  {
+      position:absolute;
+      bottom:12%;
+      right:20px;
+      z-index: 1;
+    }
+    #resetZoomLevel
+  {
+      position:absolute;
+      bottom:28%;
+      right:20px;
+      z-index: 1;
+    }
+    #searchholdingdiv
+  {
+      position:absolute;
+      top:50px;
+      right: 3%;
+      z-index: 1;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+    }
+    #viewkeybutton
+  {
+      position:absolute;
+      top:50px;
+      left: 10px;
+      z-index: 1;
+    }
+    #showkeycoloursdiv
+  {
+      position:absolute;
+      top: 105px;
+      left: 10px;
+      z-index: 1;
+      overflow: scroll;
+      height: 0px;
+      width: 0px;
+      border-radius: 10px;
+      opacity: 0;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transform: translate3d(0,0,0);
+
+    }
+    .insidekeycolourdiv
+    {
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      line-height: 100px;
+    }
+    #ajaxsearchresultsdiv{
+      border-radius: 10px;
+      height: 0px;
+      color: white;
+      background-color: #474747;
+      overflow: scroll;
+      text-align: center;
+      opacity: 0;
+      -webkit-transition-duration: 0.5s;
+      -moz-transition-duration: 0.5s;
+      -o-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+    }
